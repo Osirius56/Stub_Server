@@ -1,0 +1,43 @@
+[{
+    "template_ad_id": "DIOR_JADORE",
+    "skipoffset": "00:00:05",
+    "duration": "00:01:00",
+    "mediafile": {
+        "id": "GDFP",
+        "delivery": "progressive",
+        "type": "video/mp4",
+        "scalable": "true",
+        "maintainAspectRatio": "true",
+        "cdata": "http://197.30.30.181/ads/jadore.mp4",
+        "height": "480",
+        "width":"240"
+    }
+}, {
+    "template_ad_id": "QWANT",
+    "skipoffset": "00:00:05",
+    "duration": "00:30:00",
+    "mediafile": {
+        "id": "GDFP",
+        "delivery": "progressive",
+        "type": "video/mp4",
+        "scalable": "true",
+        "maintainAspectRatio": "true",
+        "cdata": "http://197.30.30.181/ads/qwant.mp4",
+        "height": "480",
+        "width":"240"
+    }
+}, {
+    "template_ad_id": "LES_FERMIERS",
+    "skipoffset": "00:00:05",
+    "duration": "00:33:00",
+    "mediafile": {
+        "id": "GDFP",
+        "delivery": "progressive",
+        "type": "video/mp4",
+        "scalable": "true",
+        "maintainAspectRatio": "true",
+        "cdata": "http://197.30.30.181/ads/lesfermiers.mp4",
+        "height": "480",
+        "width":"240"
+    }
+}]

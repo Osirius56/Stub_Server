@@ -1,0 +1,17 @@
+[Unit]
+Description=Run STUB web service
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python3.6 /var/www/stub/VAST_VMAP_STUB/STUB.py -f /var/www/stub/VAST_VMAP_STUB/data/mp4_pod_3ads.json -p 81
+Restart=always
+RestartSec=1
+RemainAfterExit=yes
+ExecStop=/bin/kill -- $MAINPID
+KillSignal=SIGTERM
+KillMode=process
+
+[Install]
+WantedBy=default.target
+

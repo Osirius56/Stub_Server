@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Broadpeak STUB Server</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='/static/main.css'>
+    <!-- <script src='main.js'></script> -->
+</head>
+<body>
+    <h1><img src="/static/favicon.ico"> Broadpeak STUB Server</h1>
+    <table id="cartouche">
+        <tr>
+            <th>STUB Version</th>
+            <td>__version__</td>
+        </tr>
+        <tr>
+            <th>Language</th>
+            <td>Python __pyver__</td>
+        </tr>
+        <tr>
+            <th>API Library</th>
+            <td>Flask __flask_version__</td>
+        </tr>
+    </table>
+    <div id=custom_info>
+        <h2>Custom url How To</h2>
+        <h3>Allowed Methods</h3>
+        <p>PUT <span class="uri">http://{host}:{port}/custom/&lt;custom_uri&gt;</span></p>
+        <h3>Data type (<i>JSON Dict</i>)</h3>
+        <p><strong>message</strong> field can be simple text, html, xml, json, or other format. </p>
+        <pre>
+            {example}
+        </pre>
+        <p><b>Nota Bene:</b><br /> <i>Data are ingested and out on Text format.</i></p>
+    </div>
+</body>
+
+</html>

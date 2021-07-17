@@ -1,0 +1,7 @@
+<vmap:AdBreak timeOffset="{timeOffset}" breakType="{breakType}" breakId="{breakId}">
+    <vmap:AdSource id="{id}" allowMultipleAds="{allowMultipleAds}" followRedirects="{followRedirects}">
+        <vmap:AdTagURI templateType="{templateType}">
+            <![CDATA[{AdTagURI}]]>
+        </vmap:AdTagURI>
+    </vmap:AdSource>
+</vmap:AdBreak>

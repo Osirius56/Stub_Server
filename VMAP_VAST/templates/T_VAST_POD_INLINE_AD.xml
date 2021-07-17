@@ -1,0 +1,43 @@
+ <Ad id="{template_ad_id}" sequence ="{ad_sequence}">
+  <InLine>
+   <AdSystem>GDFP</AdSystem>
+   <AdTitle>{ad_title}</AdTitle>
+   <Description><![CDATA[{ad_description}]]></Description>
+   <Error><![CDATA[{error}]]></Error>
+   <Impression><![CDATA[{impression}]]></Impression>
+   <Creatives>
+    <Creative id="CreativeId_{template_ad_id}" sequence="1">
+     <Linear skipoffset="{skipoffset}">
+      <Duration>{duration}</Duration>
+      <TrackingEvents>
+       <Tracking event="start"><![CDATA[{start}]]></Tracking>
+       <Tracking event="firstQuartile"><![CDATA[{firstQuartile}]]></Tracking>
+       <Tracking event="midpoint"><![CDATA[{midpoint}]]></Tracking>
+       <Tracking event="thirdQuartile"><![CDATA[{thirdQuartile}]]></Tracking>
+       <Tracking event="complete"><![CDATA[{complete}]]></Tracking>
+       <Tracking event="mute"><![CDATA[{mute}]]></Tracking>
+       <Tracking event="unmute"><![CDATA[{unmute}]]></Tracking>
+       <Tracking event="rewind"><![CDATA[{rewind}]]></Tracking>
+       <Tracking event="pause"><![CDATA[{pause}]]></Tracking>
+       <Tracking event="resume"><![CDATA[{resume}]]></Tracking>
+       <Tracking event="fullscreen"><![CDATA[{fullscreen}]]></Tracking>
+       <Tracking event="creativeView"><![CDATA[{creativeView}]]></Tracking>
+       <Tracking event="exitFullscreen"><![CDATA[{exitFullscreen}]]></Tracking>
+       <Tracking event="acceptInvitationLinear"><![CDATA[{acceptInvitationLinear}]]></Tracking>
+       <Tracking event="closeLinear"><![CDATA[{closeLinear}]]></Tracking>
+       <Tracking event="skip"><![CDATA[{skip}]]></Tracking>
+       <Tracking event="progress" offset="{skipoffset}"><![CDATA[{video_skip_shown}]]></Tracking>
+       <Tracking event="progress" offset="{duration}"><![CDATA[{video_engaged_view}]]></Tracking>
+      </TrackingEvents>
+      <VideoClicks>
+       <ClickThrough id="GDFP"><![CDATA[{ClickThrough}]]></ClickThrough>
+      </VideoClicks>
+      <MediaFiles>
+       {mediafile}
+      </MediaFiles>
+     </Linear>
+    </Creative>
+   </Creatives>
+   <Extensions><Extension type="geo"><Country>PL</Country><Bandwidth>4</Bandwidth><BandwidthKbps>11900</BandwidthKbps></Extension><Extension type="activeview"><CustomTracking><Tracking event="viewable_impression"><![CDATA[http://192.9.211.70/hhhsigh=sslpk9gubSo&label=viewable_impression&acvw=[VIEWABILITY]&gv=[GOOGLE_VIEWABILITY]&ad_mt=[AD_MT]]]></Tracking><Tracking event="abandon"><![CDATA[http://abcdefgh.net/hhhsigh=sslpk9gubSo&label=video_abandon&acvw=[VIEWABILITY]&gv=[GOOGLE_VIEWABILITY]]]></Tracking></CustomTracking><ActiveViewMetadata><![CDATA[ud=1&la=1&alp=xai&alh=1387234918&]]></ActiveViewMetadata></Extension><Extension type="DFP"><SkippableAdType>Generic</SkippableAdType></Extension><Extension type="metrics"><FeEventId>wBAeXYbCKueMmLAP35eykAM</FeEventId><AdEventId>CPzbgZnAm-MCFYYGBgAdlHwL2w</AdEventId></Extension><Extension type="ShowAdTracking"><CustomTracking><Tracking event="show_ad"><![CDATA[https://securepubads.g.doubleclick.net/pcs/view?xai=AKAOjsvcT1e0gcim7arH0AisvLosbxBz1PTiZeBcmaf3aH-51HMxB8lPGyAEpjHgnfuqN9p-2SdG6mKestECNEDpgCdyCQ6w4lHujlQtrCNGD2Jb_U5koxTIy20jlgSogWAiEDfIlOuJVgJF0rCMggS3mZ6XNgRsrNprjPtGPgB4mmxw2h9DQ1DLb2Rz6r48sbSJ-XjNYyPYXinh6ssmPvEUOVema6UUxFstFeFTIvSHSwutA73lcuMSweDFRWwxd3hNlJLz&sai=AMfl-YSKqNPYpucr8t5cGlTTVtQkbyOH10G_OFSxX1iazFKw&sig=Cg0ArKJSzNpjkbyyMgvHEAE&adurl=]]></Tracking></CustomTracking></Extension><Extension type="video_ad_loaded"><CustomTracking><Tracking event="loaded"><![CDATA[http://abcdefgh.net/hhhsigh=sslpk9gubSo&label=video_ad_loaded]]></Tracking></CustomTracking></Extension></Extensions>
+  </InLine>
+ </Ad>
