@@ -20,7 +20,10 @@ def index():
 # -- VMAP
 @app.route("/vmap/")
 def doc_vmap():
-    return send_from_directory("./","html/vmap_info.html")
+    with open(os.path.join(os.path.dirname(__file__),"html","vmap_info.html")) as fp:
+        html = fp.read()
+    html = str(html).format(stub_host=str(request.headers.get("Host")))
+    return Response(html)
 
 @app.route("/vmap/static/<id>",methods=["DELETE","PUT","GET"])
 def vmap_static(id):
@@ -101,7 +104,10 @@ def vmap_dynamic():
 # -- VAST
 @app.route("/vast/")
 def doc_vast():
-    return send_from_directory("./","html/vast_info.html")
+    with open(os.path.join(os.path.dirname(__file__),"html","vast_info.html")) as fp:
+        html = fp.read()
+    html = str(html).format(stub_host=str(request.headers.get("Host")))
+    return Response(html)
 
 @app.route('/vast/static/<id>',methods=["DELETE","PUT","GET"])
 def vast_static(id):
@@ -200,8 +206,8 @@ def custom_event(event_uri):
 
 @app.route('/custom/',methods=["GET"])
 def doc_custom():
-    with open(os.path.join(SCRIPT_PATH, "html/custom_urls_info.html")) as fp:
-        CUSTOM_URL_INFO = fp.read()
+    with open(os.path.join(os.path.dirname(__file__),"html","custom_urls_info.html")) as fp:
+        html = fp.read()
     example="""{
                 "status_code": 200,
                 "message" : "You Win",
@@ -210,7 +216,7 @@ def doc_custom():
                     "my-custom-header": "test01"
                 }
             }"""
-    return Response(head_update(CUSTOM_URL_INFO).format(host=STUB_HOST,port=LISTEN_PORT,example=example),status=200,headers=DEFAULT_HEADERS)
+    return Response(head_update(html).format(host=STUB_HOST,port=LISTEN_PORT,example=example,stub_host=str(request.headers.get("Host"))),status=200,headers=DEFAULT_HEADERS)
 
 @app.route('/custom/<custom_uri>',methods=["GET","PUT","DELETE"])
 def custom(custom_uri):

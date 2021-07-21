@@ -74,7 +74,7 @@ def update_uri(data):
 
     # m = ["<li>%s" % i for i in m]
     # m = "</li>".join(m)
-    return SERVER_INFO.replace("__data__", "<ul>"+m.replace("'","")+"</ul>").replace("__doc__", "<ul>"+doc.replace("'","")+"</ul>")#, output_matrix
+    return SERVER_INFO.replace("__data__", "<ul>"+m.replace("'","")+"</ul>").replace("__doc__", "<ul>"+doc.replace("'","")+"</ul>").format(stub_host=str(request.headers.get("Host")))#, output_matrix
 
 def mediafile_cdata_write(cdata):
     return "<![CDATA[%s]]>" % cdata
