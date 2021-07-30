@@ -43,11 +43,11 @@ def vmap_static(id):
             status = 404
         return Response(json.dumps(msg),mimetype="application/json",headers=DEFAULT_HEADERS,status=status)
 
-    if request.method == "POST":
-        # response = check_vmap(request.data)
+    if request.method == "PUT":
+        response = check_vmap(request.data)
         # print("resp %s" % response)
-        # if response != None:
-        #     return response
+        if response != None:
+            return response
         
         if os.path.isfile(os.path.join(VMAP_PATH,output)):
             msg = deepcopy(MSG_409_CONFLICT)
@@ -66,8 +66,6 @@ def vmap_static(id):
             # except Exception as err:
                 # return Response(json.dumps(MSG_404_NOT_FOUND) ,mimetype="application/json",headers=DEFAULT_HEADERS,status=500)
 
-    if request.method == "PUT":
-        pass
     if request.method == "GET":
         try:
             with open(os.path.join(VMAP_PATH,output)) as fp:
@@ -80,7 +78,7 @@ def vmap_static(id):
 
 @app.route("/vmap/autogen",methods=["POST","GET"])
 def vmap_dynamic():
-    if request.method == "PUT":
+    if request.method == "POST":
         # response = check_vmap(vmap_generate(request))
         response = Response(vmap_generate(request), mimetype='text/xml',headers=DEFAULT_HEADERS)
         # msg = MSG_200_OK
@@ -169,15 +167,20 @@ def vast_static(id):
 @app.route('/vast/autogen',methods=["POST","GET"])
 def vast_dynamic():
     if request.method == "POST":
+        print("post")
         try:
             vast = vast_generate(request)
             response = check_vast(vast)
-            if response == None:
-                response = Response(vast, mimetype='text/xml',headers=DEFAULT_HEADERS)
+            if response != None:
+                return response
+            else:
+                return Response(vast, mimetype='text/xml',headers=DEFAULT_HEADERS)
+
         except Exception as err:
             msg = deepcopy(MSG_500_INTERNAL_ERROR)
             msg['error'] = str(err)
             response = Response(json.dumps(msg) ,mimetype="application/json",headers=DEFAULT_HEADERS,status=500)
+        
     elif request.method == "GET":
         with open(os.path.join(VAST_PATH, VAST_GENERATED_FILE)) as fp:
             VAST = fp.read()

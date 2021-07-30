@@ -5,34 +5,34 @@
    <AdSystem>GDFP</AdSystem>
    <AdTitle>CREATIVE</AdTitle>
    <Description><![CDATA[AD_description]]></Description>
-   <Error><![CDATA[http://192.168.1.11:81/event/hhhsigh=sslpk9gubSo&label=videoplayfailed[ERRORCODE]]]></Error>
+   <Error><![CDATA[http://10.12.178.146:81/event/hhhsigh=sslpk9gubSo&label=videoplayfailed[ERRORCODE]]]></Error>
    <Impression><![CDATA[https://event/securepubads.g.doubleclick.net/pcs/view?xai=AKAOjstQn8XKa16rjdCdgDAk3PwxHcgAMl31WVfbYxqsTcJs_WI_nWw4lBZaN6VYIXBzDFHcWXueRyjAYLc6uzgmytPvjwLvWg9EoynCf69hLYCOeap-etguLvI7xi99ND7qMIK-qg5EAxauFCbiaIHThcvfo6yG-PMVoWoy_8YzzPVZ3OqvuLN6dR0YXoU_FJoRASL04qkAXYNMX5fnFoZp6Tt2vpsL4nFM97k6YvFclxT7FnvRfUzr2lkBJGxtQUp04g&sai=AMfl-YSBdnB6aDbl5UOs4y6HvEvtLM2bq_mqNxvA3l-DBNBx&sig=Cg0ArKJSzDQ_JHr9NEsOEAE&adurl=]]></Impression>
    <Creatives>
     <Creative id="CreativeId_DIOR_JADORE" sequence="1">
      <Linear skipoffset="00:00:05">
       <Duration>00:01:00</Duration>
       <TrackingEvents>
-       <Tracking event="start"><![CDATA[http://192.168.1.11:81/event/hhh0]]></Tracking>
-       <Tracking event="firstQuartile"><![CDATA[http://192.168.1.11:81/event/hhh25]]></Tracking>
-       <Tracking event="midpoint"><![CDATA[http://192.168.1.11:81/event/hhh50]]></Tracking>
-       <Tracking event="thirdQuartile"><![CDATA[http://192.168.1.11:81/event/hhh75]]></Tracking>
-       <Tracking event="complete"><![CDATA[http://192.168.1.11:81/event/hhh100]]></Tracking>
-       <Tracking event="mute"><![CDATA[http://192.168.1.11:81/event/hhhsigh=sslpk9gubSo&label=admute&ad_mt=[AD_MT]]]></Tracking>
-       <Tracking event="unmute"><![CDATA[http://192.168.1.11:81/event/hhhsigh=sslpk9gubSo&label=adunmute&ad_mt=[AD_MT]]]></Tracking>
-       <Tracking event="rewind"><![CDATA[http://192.168.1.11:81/event/hhhsigh=sslpk9gubSo&label=adrewind&ad_mt=[AD_MT]]]></Tracking>
-       <Tracking event="pause"><![CDATA[http://192.168.1.11:81/event/hhhsigh=sslpk9gubSo&label=adpause&ad_mt=[AD_MT]]]></Tracking>
-       <Tracking event="resume"><![CDATA[http://192.168.1.11:81/event/hhhsigh=sslpk9gubSo&label=adresume&ad_mt=[AD_MT]]]></Tracking>
-       <Tracking event="fullscreen"><![CDATA[http://192.168.1.11:81/event/hhhsigh=sslpk9gubSo&label=adfullscreen&ad_mt=[AD_MT]]]></Tracking>
-       <Tracking event="creativeView"><![CDATA[http://192.168.1.11:81/event/hhhsigh=sslpk9gubSo&label=vast_creativeview&ad_mt=[AD_MT]]]></Tracking>
-       <Tracking event="exitFullscreen"><![CDATA[http://192.168.1.11:81/event/hhhsigh=sslpk9gubSo&label=vast_exit_fullscreen&ad_mt=[AD_MT]]]></Tracking>
-       <Tracking event="acceptInvitationLinear"><![CDATA[http://192.168.1.11:81/event/hhhsigh=sslpk9gubSo&label=acceptinvitation&ad_mt=[AD_MT]]]></Tracking>
-       <Tracking event="closeLinear"><![CDATA[http://192.168.1.11:81/event/hhhsigh=sslpk9gubSo&label=adclose&ad_mt=[AD_MT]]]></Tracking>
-       <Tracking event="skip"><![CDATA[http://192.168.1.11:81/event/hhhsigh=sslpk9gubSo&label=videoskipped&ad_mt=[AD_MT]]]></Tracking>
-       <Tracking event="progress" offset="00:00:05"><![CDATA[http://192.168.1.11:81/event/hhhsigh=sslpk9gubSo&label=video_skip_shown&ad_mt=[AD_MT]]]></Tracking>
-       <Tracking event="progress" offset="00:01:00"><![CDATA[http://192.168.1.11:81/event/hhhsigh=sslpk9gubSo&label=video_engaged_view&ad_mt=[AD_MT]]]></Tracking>
+       <Tracking event="start"><![CDATA[http://10.12.178.146:81/event/hhh0]]></Tracking>
+       <Tracking event="firstQuartile"><![CDATA[http://10.12.178.146:81/event/hhh25]]></Tracking>
+       <Tracking event="midpoint"><![CDATA[http://10.12.178.146:81/event/hhh50]]></Tracking>
+       <Tracking event="thirdQuartile"><![CDATA[http://10.12.178.146:81/event/hhh75]]></Tracking>
+       <Tracking event="complete"><![CDATA[http://10.12.178.146:81/event/hhh100]]></Tracking>
+       <Tracking event="mute"><![CDATA[http://10.12.178.146:81/event/hhhsigh=sslpk9gubSo&label=admute&ad_mt=[AD_MT]]]></Tracking>
+       <Tracking event="unmute"><![CDATA[http://10.12.178.146:81/event/hhhsigh=sslpk9gubSo&label=adunmute&ad_mt=[AD_MT]]]></Tracking>
+       <Tracking event="rewind"><![CDATA[http://10.12.178.146:81/event/hhhsigh=sslpk9gubSo&label=adrewind&ad_mt=[AD_MT]]]></Tracking>
+       <Tracking event="pause"><![CDATA[http://10.12.178.146:81/event/hhhsigh=sslpk9gubSo&label=adpause&ad_mt=[AD_MT]]]></Tracking>
+       <Tracking event="resume"><![CDATA[http://10.12.178.146:81/event/hhhsigh=sslpk9gubSo&label=adresume&ad_mt=[AD_MT]]]></Tracking>
+       <Tracking event="fullscreen"><![CDATA[http://10.12.178.146:81/event/hhhsigh=sslpk9gubSo&label=adfullscreen&ad_mt=[AD_MT]]]></Tracking>
+       <Tracking event="creativeView"><![CDATA[http://10.12.178.146:81/event/hhhsigh=sslpk9gubSo&label=vast_creativeview&ad_mt=[AD_MT]]]></Tracking>
+       <Tracking event="exitFullscreen"><![CDATA[http://10.12.178.146:81/event/hhhsigh=sslpk9gubSo&label=vast_exit_fullscreen&ad_mt=[AD_MT]]]></Tracking>
+       <Tracking event="acceptInvitationLinear"><![CDATA[http://10.12.178.146:81/event/hhhsigh=sslpk9gubSo&label=acceptinvitation&ad_mt=[AD_MT]]]></Tracking>
+       <Tracking event="closeLinear"><![CDATA[http://10.12.178.146:81/event/hhhsigh=sslpk9gubSo&label=adclose&ad_mt=[AD_MT]]]></Tracking>
+       <Tracking event="skip"><![CDATA[http://10.12.178.146:81/event/hhhsigh=sslpk9gubSo&label=videoskipped&ad_mt=[AD_MT]]]></Tracking>
+       <Tracking event="progress" offset="00:00:05"><![CDATA[http://10.12.178.146:81/event/hhhsigh=sslpk9gubSo&label=video_skip_shown&ad_mt=[AD_MT]]]></Tracking>
+       <Tracking event="progress" offset="00:01:00"><![CDATA[http://10.12.178.146:81/event/hhhsigh=sslpk9gubSo&label=video_engaged_view&ad_mt=[AD_MT]]]></Tracking>
       </TrackingEvents>
       <VideoClicks>
-       <ClickThrough id="GDFP"><![CDATA[http://192.168.1.11:81/event/pcs/click?xai=AKAOjsu-RcXCgn02yYoM8LFnnQSgUow1XTgUaUEzV22QVz5BKFbARMapKfkmghfF6zK3JpidpKgNUbtq7w-yygN6UvFLV3YhdsZAVSa_ZNWleqh-uR1hDXSefWqO_ohb0muCE8Of2dKmZG3sez9gQNM-nogjg-HYmelOGTVkCL3QQpT9yeVzgDAUrFXS15kUqk_r6-ZPHu1CWQ8oXJktxdY4YPXSJblydMf4tfMyeyE4l81_zb4YSHQrZR5biVW5Sg&sig=Cg0ArKJSzASr7QlljqBd&adurl=http://www.partner.co.il]]></ClickThrough>
+       <ClickThrough id="GDFP"><![CDATA[http://10.12.178.146:81/event/pcs/click?xai=AKAOjsu-RcXCgn02yYoM8LFnnQSgUow1XTgUaUEzV22QVz5BKFbARMapKfkmghfF6zK3JpidpKgNUbtq7w-yygN6UvFLV3YhdsZAVSa_ZNWleqh-uR1hDXSefWqO_ohb0muCE8Of2dKmZG3sez9gQNM-nogjg-HYmelOGTVkCL3QQpT9yeVzgDAUrFXS15kUqk_r6-ZPHu1CWQ8oXJktxdY4YPXSJblydMf4tfMyeyE4l81_zb4YSHQrZR5biVW5Sg&sig=Cg0ArKJSzASr7QlljqBd&adurl=http://www.partner.co.il]]></ClickThrough>
       </VideoClicks>
       <MediaFiles>
        <MediaFile  id="GDFP" delivery="progressive" type="video/mp4" scalable="true" maintainAspectRatio="true" height="480" width="240"> <![CDATA[http://197.30.30.181/ads/jadore.mp4]]> </MediaFile>
@@ -48,34 +48,34 @@
    <AdSystem>GDFP</AdSystem>
    <AdTitle>CREATIVE</AdTitle>
    <Description><![CDATA[AD_description]]></Description>
-   <Error><![CDATA[http://192.168.1.11:81/event/hhhsigh=sslpk9gubSo&label=videoplayfailed[ERRORCODE]]]></Error>
+   <Error><![CDATA[http://10.12.178.146:81/event/hhhsigh=sslpk9gubSo&label=videoplayfailed[ERRORCODE]]]></Error>
    <Impression><![CDATA[https://event/securepubads.g.doubleclick.net/pcs/view?xai=AKAOjstQn8XKa16rjdCdgDAk3PwxHcgAMl31WVfbYxqsTcJs_WI_nWw4lBZaN6VYIXBzDFHcWXueRyjAYLc6uzgmytPvjwLvWg9EoynCf69hLYCOeap-etguLvI7xi99ND7qMIK-qg5EAxauFCbiaIHThcvfo6yG-PMVoWoy_8YzzPVZ3OqvuLN6dR0YXoU_FJoRASL04qkAXYNMX5fnFoZp6Tt2vpsL4nFM97k6YvFclxT7FnvRfUzr2lkBJGxtQUp04g&sai=AMfl-YSBdnB6aDbl5UOs4y6HvEvtLM2bq_mqNxvA3l-DBNBx&sig=Cg0ArKJSzDQ_JHr9NEsOEAE&adurl=]]></Impression>
    <Creatives>
     <Creative id="CreativeId_QWANT" sequence="1">
      <Linear skipoffset="00:00:05">
       <Duration>00:30:00</Duration>
       <TrackingEvents>
-       <Tracking event="start"><![CDATA[http://192.168.1.11:81/event/hhh0]]></Tracking>
-       <Tracking event="firstQuartile"><![CDATA[http://192.168.1.11:81/event/hhh25]]></Tracking>
-       <Tracking event="midpoint"><![CDATA[http://192.168.1.11:81/event/hhh50]]></Tracking>
-       <Tracking event="thirdQuartile"><![CDATA[http://192.168.1.11:81/event/hhh75]]></Tracking>
-       <Tracking event="complete"><![CDATA[http://192.168.1.11:81/event/hhh100]]></Tracking>
-       <Tracking event="mute"><![CDATA[http://192.168.1.11:81/event/hhhsigh=sslpk9gubSo&label=admute&ad_mt=[AD_MT]]]></Tracking>
-       <Tracking event="unmute"><![CDATA[http://192.168.1.11:81/event/hhhsigh=sslpk9gubSo&label=adunmute&ad_mt=[AD_MT]]]></Tracking>
-       <Tracking event="rewind"><![CDATA[http://192.168.1.11:81/event/hhhsigh=sslpk9gubSo&label=adrewind&ad_mt=[AD_MT]]]></Tracking>
-       <Tracking event="pause"><![CDATA[http://192.168.1.11:81/event/hhhsigh=sslpk9gubSo&label=adpause&ad_mt=[AD_MT]]]></Tracking>
-       <Tracking event="resume"><![CDATA[http://192.168.1.11:81/event/hhhsigh=sslpk9gubSo&label=adresume&ad_mt=[AD_MT]]]></Tracking>
-       <Tracking event="fullscreen"><![CDATA[http://192.168.1.11:81/event/hhhsigh=sslpk9gubSo&label=adfullscreen&ad_mt=[AD_MT]]]></Tracking>
-       <Tracking event="creativeView"><![CDATA[http://192.168.1.11:81/event/hhhsigh=sslpk9gubSo&label=vast_creativeview&ad_mt=[AD_MT]]]></Tracking>
-       <Tracking event="exitFullscreen"><![CDATA[http://192.168.1.11:81/event/hhhsigh=sslpk9gubSo&label=vast_exit_fullscreen&ad_mt=[AD_MT]]]></Tracking>
-       <Tracking event="acceptInvitationLinear"><![CDATA[http://192.168.1.11:81/event/hhhsigh=sslpk9gubSo&label=acceptinvitation&ad_mt=[AD_MT]]]></Tracking>
-       <Tracking event="closeLinear"><![CDATA[http://192.168.1.11:81/event/hhhsigh=sslpk9gubSo&label=adclose&ad_mt=[AD_MT]]]></Tracking>
-       <Tracking event="skip"><![CDATA[http://192.168.1.11:81/event/hhhsigh=sslpk9gubSo&label=videoskipped&ad_mt=[AD_MT]]]></Tracking>
-       <Tracking event="progress" offset="00:00:05"><![CDATA[http://192.168.1.11:81/event/hhhsigh=sslpk9gubSo&label=video_skip_shown&ad_mt=[AD_MT]]]></Tracking>
-       <Tracking event="progress" offset="00:30:00"><![CDATA[http://192.168.1.11:81/event/hhhsigh=sslpk9gubSo&label=video_engaged_view&ad_mt=[AD_MT]]]></Tracking>
+       <Tracking event="start"><![CDATA[http://10.12.178.146:81/event/hhh0]]></Tracking>
+       <Tracking event="firstQuartile"><![CDATA[http://10.12.178.146:81/event/hhh25]]></Tracking>
+       <Tracking event="midpoint"><![CDATA[http://10.12.178.146:81/event/hhh50]]></Tracking>
+       <Tracking event="thirdQuartile"><![CDATA[http://10.12.178.146:81/event/hhh75]]></Tracking>
+       <Tracking event="complete"><![CDATA[http://10.12.178.146:81/event/hhh100]]></Tracking>
+       <Tracking event="mute"><![CDATA[http://10.12.178.146:81/event/hhhsigh=sslpk9gubSo&label=admute&ad_mt=[AD_MT]]]></Tracking>
+       <Tracking event="unmute"><![CDATA[http://10.12.178.146:81/event/hhhsigh=sslpk9gubSo&label=adunmute&ad_mt=[AD_MT]]]></Tracking>
+       <Tracking event="rewind"><![CDATA[http://10.12.178.146:81/event/hhhsigh=sslpk9gubSo&label=adrewind&ad_mt=[AD_MT]]]></Tracking>
+       <Tracking event="pause"><![CDATA[http://10.12.178.146:81/event/hhhsigh=sslpk9gubSo&label=adpause&ad_mt=[AD_MT]]]></Tracking>
+       <Tracking event="resume"><![CDATA[http://10.12.178.146:81/event/hhhsigh=sslpk9gubSo&label=adresume&ad_mt=[AD_MT]]]></Tracking>
+       <Tracking event="fullscreen"><![CDATA[http://10.12.178.146:81/event/hhhsigh=sslpk9gubSo&label=adfullscreen&ad_mt=[AD_MT]]]></Tracking>
+       <Tracking event="creativeView"><![CDATA[http://10.12.178.146:81/event/hhhsigh=sslpk9gubSo&label=vast_creativeview&ad_mt=[AD_MT]]]></Tracking>
+       <Tracking event="exitFullscreen"><![CDATA[http://10.12.178.146:81/event/hhhsigh=sslpk9gubSo&label=vast_exit_fullscreen&ad_mt=[AD_MT]]]></Tracking>
+       <Tracking event="acceptInvitationLinear"><![CDATA[http://10.12.178.146:81/event/hhhsigh=sslpk9gubSo&label=acceptinvitation&ad_mt=[AD_MT]]]></Tracking>
+       <Tracking event="closeLinear"><![CDATA[http://10.12.178.146:81/event/hhhsigh=sslpk9gubSo&label=adclose&ad_mt=[AD_MT]]]></Tracking>
+       <Tracking event="skip"><![CDATA[http://10.12.178.146:81/event/hhhsigh=sslpk9gubSo&label=videoskipped&ad_mt=[AD_MT]]]></Tracking>
+       <Tracking event="progress" offset="00:00:05"><![CDATA[http://10.12.178.146:81/event/hhhsigh=sslpk9gubSo&label=video_skip_shown&ad_mt=[AD_MT]]]></Tracking>
+       <Tracking event="progress" offset="00:30:00"><![CDATA[http://10.12.178.146:81/event/hhhsigh=sslpk9gubSo&label=video_engaged_view&ad_mt=[AD_MT]]]></Tracking>
       </TrackingEvents>
       <VideoClicks>
-       <ClickThrough id="GDFP"><![CDATA[http://192.168.1.11:81/event/pcs/click?xai=AKAOjsu-RcXCgn02yYoM8LFnnQSgUow1XTgUaUEzV22QVz5BKFbARMapKfkmghfF6zK3JpidpKgNUbtq7w-yygN6UvFLV3YhdsZAVSa_ZNWleqh-uR1hDXSefWqO_ohb0muCE8Of2dKmZG3sez9gQNM-nogjg-HYmelOGTVkCL3QQpT9yeVzgDAUrFXS15kUqk_r6-ZPHu1CWQ8oXJktxdY4YPXSJblydMf4tfMyeyE4l81_zb4YSHQrZR5biVW5Sg&sig=Cg0ArKJSzASr7QlljqBd&adurl=http://www.partner.co.il]]></ClickThrough>
+       <ClickThrough id="GDFP"><![CDATA[http://10.12.178.146:81/event/pcs/click?xai=AKAOjsu-RcXCgn02yYoM8LFnnQSgUow1XTgUaUEzV22QVz5BKFbARMapKfkmghfF6zK3JpidpKgNUbtq7w-yygN6UvFLV3YhdsZAVSa_ZNWleqh-uR1hDXSefWqO_ohb0muCE8Of2dKmZG3sez9gQNM-nogjg-HYmelOGTVkCL3QQpT9yeVzgDAUrFXS15kUqk_r6-ZPHu1CWQ8oXJktxdY4YPXSJblydMf4tfMyeyE4l81_zb4YSHQrZR5biVW5Sg&sig=Cg0ArKJSzASr7QlljqBd&adurl=http://www.partner.co.il]]></ClickThrough>
       </VideoClicks>
       <MediaFiles>
        <MediaFile  id="GDFP" delivery="progressive" type="video/mp4" scalable="true" maintainAspectRatio="true" height="480" width="240"> <![CDATA[http://197.30.30.181/ads/qwant.mp4]]> </MediaFile>
@@ -91,34 +91,34 @@
    <AdSystem>GDFP</AdSystem>
    <AdTitle>CREATIVE</AdTitle>
    <Description><![CDATA[AD_description]]></Description>
-   <Error><![CDATA[http://192.168.1.11:81/event/hhhsigh=sslpk9gubSo&label=videoplayfailed[ERRORCODE]]]></Error>
+   <Error><![CDATA[http://10.12.178.146:81/event/hhhsigh=sslpk9gubSo&label=videoplayfailed[ERRORCODE]]]></Error>
    <Impression><![CDATA[https://event/securepubads.g.doubleclick.net/pcs/view?xai=AKAOjstQn8XKa16rjdCdgDAk3PwxHcgAMl31WVfbYxqsTcJs_WI_nWw4lBZaN6VYIXBzDFHcWXueRyjAYLc6uzgmytPvjwLvWg9EoynCf69hLYCOeap-etguLvI7xi99ND7qMIK-qg5EAxauFCbiaIHThcvfo6yG-PMVoWoy_8YzzPVZ3OqvuLN6dR0YXoU_FJoRASL04qkAXYNMX5fnFoZp6Tt2vpsL4nFM97k6YvFclxT7FnvRfUzr2lkBJGxtQUp04g&sai=AMfl-YSBdnB6aDbl5UOs4y6HvEvtLM2bq_mqNxvA3l-DBNBx&sig=Cg0ArKJSzDQ_JHr9NEsOEAE&adurl=]]></Impression>
    <Creatives>
     <Creative id="CreativeId_LES_FERMIERS" sequence="1">
      <Linear skipoffset="00:00:05">
       <Duration>00:33:00</Duration>
       <TrackingEvents>
-       <Tracking event="start"><![CDATA[http://192.168.1.11:81/event/hhh0]]></Tracking>
-       <Tracking event="firstQuartile"><![CDATA[http://192.168.1.11:81/event/hhh25]]></Tracking>
-       <Tracking event="midpoint"><![CDATA[http://192.168.1.11:81/event/hhh50]]></Tracking>
-       <Tracking event="thirdQuartile"><![CDATA[http://192.168.1.11:81/event/hhh75]]></Tracking>
-       <Tracking event="complete"><![CDATA[http://192.168.1.11:81/event/hhh100]]></Tracking>
-       <Tracking event="mute"><![CDATA[http://192.168.1.11:81/event/hhhsigh=sslpk9gubSo&label=admute&ad_mt=[AD_MT]]]></Tracking>
-       <Tracking event="unmute"><![CDATA[http://192.168.1.11:81/event/hhhsigh=sslpk9gubSo&label=adunmute&ad_mt=[AD_MT]]]></Tracking>
-       <Tracking event="rewind"><![CDATA[http://192.168.1.11:81/event/hhhsigh=sslpk9gubSo&label=adrewind&ad_mt=[AD_MT]]]></Tracking>
-       <Tracking event="pause"><![CDATA[http://192.168.1.11:81/event/hhhsigh=sslpk9gubSo&label=adpause&ad_mt=[AD_MT]]]></Tracking>
-       <Tracking event="resume"><![CDATA[http://192.168.1.11:81/event/hhhsigh=sslpk9gubSo&label=adresume&ad_mt=[AD_MT]]]></Tracking>
-       <Tracking event="fullscreen"><![CDATA[http://192.168.1.11:81/event/hhhsigh=sslpk9gubSo&label=adfullscreen&ad_mt=[AD_MT]]]></Tracking>
-       <Tracking event="creativeView"><![CDATA[http://192.168.1.11:81/event/hhhsigh=sslpk9gubSo&label=vast_creativeview&ad_mt=[AD_MT]]]></Tracking>
-       <Tracking event="exitFullscreen"><![CDATA[http://192.168.1.11:81/event/hhhsigh=sslpk9gubSo&label=vast_exit_fullscreen&ad_mt=[AD_MT]]]></Tracking>
-       <Tracking event="acceptInvitationLinear"><![CDATA[http://192.168.1.11:81/event/hhhsigh=sslpk9gubSo&label=acceptinvitation&ad_mt=[AD_MT]]]></Tracking>
-       <Tracking event="closeLinear"><![CDATA[http://192.168.1.11:81/event/hhhsigh=sslpk9gubSo&label=adclose&ad_mt=[AD_MT]]]></Tracking>
-       <Tracking event="skip"><![CDATA[http://192.168.1.11:81/event/hhhsigh=sslpk9gubSo&label=videoskipped&ad_mt=[AD_MT]]]></Tracking>
-       <Tracking event="progress" offset="00:00:05"><![CDATA[http://192.168.1.11:81/event/hhhsigh=sslpk9gubSo&label=video_skip_shown&ad_mt=[AD_MT]]]></Tracking>
-       <Tracking event="progress" offset="00:33:00"><![CDATA[http://192.168.1.11:81/event/hhhsigh=sslpk9gubSo&label=video_engaged_view&ad_mt=[AD_MT]]]></Tracking>
+       <Tracking event="start"><![CDATA[http://10.12.178.146:81/event/hhh0]]></Tracking>
+       <Tracking event="firstQuartile"><![CDATA[http://10.12.178.146:81/event/hhh25]]></Tracking>
+       <Tracking event="midpoint"><![CDATA[http://10.12.178.146:81/event/hhh50]]></Tracking>
+       <Tracking event="thirdQuartile"><![CDATA[http://10.12.178.146:81/event/hhh75]]></Tracking>
+       <Tracking event="complete"><![CDATA[http://10.12.178.146:81/event/hhh100]]></Tracking>
+       <Tracking event="mute"><![CDATA[http://10.12.178.146:81/event/hhhsigh=sslpk9gubSo&label=admute&ad_mt=[AD_MT]]]></Tracking>
+       <Tracking event="unmute"><![CDATA[http://10.12.178.146:81/event/hhhsigh=sslpk9gubSo&label=adunmute&ad_mt=[AD_MT]]]></Tracking>
+       <Tracking event="rewind"><![CDATA[http://10.12.178.146:81/event/hhhsigh=sslpk9gubSo&label=adrewind&ad_mt=[AD_MT]]]></Tracking>
+       <Tracking event="pause"><![CDATA[http://10.12.178.146:81/event/hhhsigh=sslpk9gubSo&label=adpause&ad_mt=[AD_MT]]]></Tracking>
+       <Tracking event="resume"><![CDATA[http://10.12.178.146:81/event/hhhsigh=sslpk9gubSo&label=adresume&ad_mt=[AD_MT]]]></Tracking>
+       <Tracking event="fullscreen"><![CDATA[http://10.12.178.146:81/event/hhhsigh=sslpk9gubSo&label=adfullscreen&ad_mt=[AD_MT]]]></Tracking>
+       <Tracking event="creativeView"><![CDATA[http://10.12.178.146:81/event/hhhsigh=sslpk9gubSo&label=vast_creativeview&ad_mt=[AD_MT]]]></Tracking>
+       <Tracking event="exitFullscreen"><![CDATA[http://10.12.178.146:81/event/hhhsigh=sslpk9gubSo&label=vast_exit_fullscreen&ad_mt=[AD_MT]]]></Tracking>
+       <Tracking event="acceptInvitationLinear"><![CDATA[http://10.12.178.146:81/event/hhhsigh=sslpk9gubSo&label=acceptinvitation&ad_mt=[AD_MT]]]></Tracking>
+       <Tracking event="closeLinear"><![CDATA[http://10.12.178.146:81/event/hhhsigh=sslpk9gubSo&label=adclose&ad_mt=[AD_MT]]]></Tracking>
+       <Tracking event="skip"><![CDATA[http://10.12.178.146:81/event/hhhsigh=sslpk9gubSo&label=videoskipped&ad_mt=[AD_MT]]]></Tracking>
+       <Tracking event="progress" offset="00:00:05"><![CDATA[http://10.12.178.146:81/event/hhhsigh=sslpk9gubSo&label=video_skip_shown&ad_mt=[AD_MT]]]></Tracking>
+       <Tracking event="progress" offset="00:33:00"><![CDATA[http://10.12.178.146:81/event/hhhsigh=sslpk9gubSo&label=video_engaged_view&ad_mt=[AD_MT]]]></Tracking>
       </TrackingEvents>
       <VideoClicks>
-       <ClickThrough id="GDFP"><![CDATA[http://192.168.1.11:81/event/pcs/click?xai=AKAOjsu-RcXCgn02yYoM8LFnnQSgUow1XTgUaUEzV22QVz5BKFbARMapKfkmghfF6zK3JpidpKgNUbtq7w-yygN6UvFLV3YhdsZAVSa_ZNWleqh-uR1hDXSefWqO_ohb0muCE8Of2dKmZG3sez9gQNM-nogjg-HYmelOGTVkCL3QQpT9yeVzgDAUrFXS15kUqk_r6-ZPHu1CWQ8oXJktxdY4YPXSJblydMf4tfMyeyE4l81_zb4YSHQrZR5biVW5Sg&sig=Cg0ArKJSzASr7QlljqBd&adurl=http://www.partner.co.il]]></ClickThrough>
+       <ClickThrough id="GDFP"><![CDATA[http://10.12.178.146:81/event/pcs/click?xai=AKAOjsu-RcXCgn02yYoM8LFnnQSgUow1XTgUaUEzV22QVz5BKFbARMapKfkmghfF6zK3JpidpKgNUbtq7w-yygN6UvFLV3YhdsZAVSa_ZNWleqh-uR1hDXSefWqO_ohb0muCE8Of2dKmZG3sez9gQNM-nogjg-HYmelOGTVkCL3QQpT9yeVzgDAUrFXS15kUqk_r6-ZPHu1CWQ8oXJktxdY4YPXSJblydMf4tfMyeyE4l81_zb4YSHQrZR5biVW5Sg&sig=Cg0ArKJSzASr7QlljqBd&adurl=http://www.partner.co.il]]></ClickThrough>
       </VideoClicks>
       <MediaFiles>
        <MediaFile  id="GDFP" delivery="progressive" type="video/mp4" scalable="true" maintainAspectRatio="true" height="480" width="240"> <![CDATA[http://197.30.30.181/ads/lesfermiers.mp4]]> </MediaFile>
