@@ -38,9 +38,20 @@
     </div>
     <div class="section">
         <h2>Dynamic generated VAST</h2>
-        <p>
-            Input: 
-<pre>&#91;&#123;
+        <details>
+            <summary>URI</summary>
+            <p><code>/vast/autogen</code></p>
+        </details>
+        <details>
+            <summary>GET</summary>
+            <p><strong>Return generated VAST</strong>.</p>
+        </details>
+        <details>
+            <summary>POST</summary>
+            <p><strong>Set new dynamic VAST values</strong>.</p>
+            <p>Data stored in VAST folder ex:<code>/var/www/stub/VAST_VMAP_STUB/vast</code> as <strong>generated_vast.html</strong></p>
+            <p>Send POST <code>http://{stub_host}/vast/autogen</code> with Json data in body as json content <strong>header</strong> <i>content-type: application/json)</i>:
+            <p><pre>&#91;&#123;
     "template_ad_id": "QWANT",
     "ad_sequence": 1,
     "ad_title": "CREATIVE_QWANT_001",
@@ -67,7 +78,8 @@
         // "cdata": "http://197.30.30.119/bpk-vod/Ads/default/mms-super-bowl-v2/index.mpd",
     &#125;
 &#125;&#93;</pre>
-        </p>
+            <p>* Generated VAST string is verify by XSD from IAB schema v3.0</p>
+        </details>
     </div>
 
 </body>
