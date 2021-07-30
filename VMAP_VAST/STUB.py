@@ -168,27 +168,28 @@ def vast_static(id):
 
 @app.route('/vast/autogen',methods=["POST","GET"])
 def vast_dynamic():
-    if request.method == "PUT":
+    if request.method == "POST":
         try:
             vast = vast_generate(request)
             response = check_vast(vast)
-            if response != None:
-                return response
+            if response == None:
+                response = Response(vast, mimetype='text/xml',headers=DEFAULT_HEADERS)
         except Exception as err:
             msg = deepcopy(MSG_500_INTERNAL_ERROR)
             msg['error'] = str(err)
             response = Response(json.dumps(msg) ,mimetype="application/json",headers=DEFAULT_HEADERS,status=500)
-        
-    with open(os.path.join(VAST_PATH, VAST_GENERATED_FILE)) as fp:
-        VAST = fp.read()
-        try:
-            if request.args['type'] == "text":
-                mimetype = 'text/plain'
-            else :
-                mimetype='text/xml'
-        except Exception as err:
-            mimetype = 'text/xml'
-    return Response(VAST, mimetype=mimetype,headers=DEFAULT_HEADERS)
+    elif request.method == "GET":
+        with open(os.path.join(VAST_PATH, VAST_GENERATED_FILE)) as fp:
+            VAST = fp.read()
+            try:
+                if request.args['type'] == "text":
+                    mimetype = 'text/plain'
+                else :
+                    mimetype='text/xml'
+            except Exception as err:
+                mimetype = 'text/xml'
+        response = Response(VAST, mimetype=mimetype,headers=DEFAULT_HEADERS)
+    return response
 
 @app.route('/event/<event_uri>',methods=["GET"])
 def custom_event(event_uri):
