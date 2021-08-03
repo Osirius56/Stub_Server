@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <vmap:VMAP xmlns:vmap="http://www.iab.net/videosuite/vmap" version="1.0">
-    <vmap:AdBreak timeOffset="start" breakType="linear" breakId="c2c9cd8c-c576-47e0-8cf4-67185eecb6d1">
-    <vmap:AdSource id="c3bcd77c-ed7d-405d-a3b4-6c8b18b12791" allowMultipleAds="false" followRedirects="true">
+    <vmap:AdBreak timeOffset="25%" breakType="linear" breakId="fb9d9a43-b4d0-4b97-bc75-2bc7a77e949b">
+    <vmap:AdSource id="68e76ee0-dff2-4edb-abb3-e69a80398e64" allowMultipleAds="false" followRedirects="true">
         <vmap:AdTagURI templateType="vast3">
             <![CDATA[http://197.30.30.181:81/vast/autogen]]>
         </vmap:AdTagURI>
