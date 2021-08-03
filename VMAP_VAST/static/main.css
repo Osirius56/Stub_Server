@@ -9,9 +9,26 @@
     margin-bottom: 1em;
 }
 
-.td {
-    border: 1px solid grey;
+.Enhancement {
+    width: auto;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 1em;
+}
+
+thead {
+    background-color: #aaa;
+}
+
+th {
     text-align: center;
+    padding: 0.5em;
+}
+
+td {
+    text-align: left;
+    padding: 0.5em;
+    border-bottom: 1px solid #888;
 }
 
 
