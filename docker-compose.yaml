@@ -1,0 +1,23 @@
+version: "3"
+
+services:
+  stub_server:
+    build: .
+    ports:
+      - 8080:80
+
+    volumes:
+      - vast:/home/vast
+      - vmap:/home/vmap
+      - schema:/home/schema
+      - presets:/home/presets
+
+    restart: "always"
+
+volumes:
+  vast:
+  vmap:
+  schema:
+  presets:
+
+

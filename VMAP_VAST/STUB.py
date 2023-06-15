@@ -253,7 +253,7 @@ if __name__ == "__main__":
  
 
     parser = argparse.ArgumentParser(prog=os.path.basename(__file__))
-    parser.add_argument("-f","--json-file",help="Stub default data to describe static ads to include in vast",default="data/mp4_pod_3ads.json")
+    parser.add_argument("-f","--json-file",help="Stub default data to describe static ads to include in vast",default="presets/mp4_pod_3ads.json")
     parser.add_argument("-H","--host",help="Define host (IP or DNS) for Stub server",required=False,type=str,default=STUB_HOST)
     parser.add_argument("-p","--port",help="Define port of stub (default = 80)",required=False,type=int,default=LISTEN_PORT)
 

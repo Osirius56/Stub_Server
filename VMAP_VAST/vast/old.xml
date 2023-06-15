@@ -82,12 +82,12 @@
 							<MediaFile id="GDFP" delivery="streaming" width="426" height="236"
 								type="application/x-mpegurl" minBitrate="45" maxBitrate="3240" scalable="true"
 								maintainAspectRatio="true">
-								<![CDATA[http://197.30.30.119/bpk-vod/Ads/default/mms-super-bowl-v2/index.m3u8]]>
+								<![CDATA[http://197.30.30.119/my-vod/Ads/default/mms-super-bowl-v2/index.m3u8]]>
 							</MediaFile>
 							<MediaFile id="GDFP" delivery="streaming" width="426" height="236"
 								type="application/dash+xml" minBitrate="45" maxBitrate="3240" scalable="true"
 								maintainAspectRatio="true">
-								<![CDATA[http://197.30.30.119/bpk-vod/Ads/default/mms-super-bowl-v2/index.mpd]]>
+								<![CDATA[http://197.30.30.119/my-vod/Ads/default/mms-super-bowl-v2/index.mpd]]>
 							</MediaFile>
 							<MediaFile id="GDFP" delivery="progressive" width="426" height="236" type="video/mp4"
 								minBitrate="45" maxBitrate="3240" scalable="true" maintainAspectRatio="true">
@@ -222,12 +222,12 @@
 							<MediaFile id="GDFP" delivery="streaming" width="426" height="236"
 								type="application/x-mpegurl" minBitrate="45" maxBitrate="3240" scalable="true"
 								maintainAspectRatio="true">
-								<![CDATA[http://197.30.30.119/bpk-vod/Ads/default/Alfa_Romeo-Giulia_Mozzafiato-v2/index.m3u8]]>
+								<![CDATA[http://197.30.30.119/my-vod/Ads/default/Alfa_Romeo-Giulia_Mozzafiato-v2/index.m3u8]]>
 							</MediaFile>
 							<MediaFile id="GDFP" delivery="streaming" width="426" height="236"
 								type="application/dash+xml" minBitrate="45" maxBitrate="3240" scalable="true"
 								maintainAspectRatio="true">
-								<![CDATA[http://197.30.30.119/bpk-vod/Ads/default/Alfa_Romeo-Giulia_Mozzafiato-v2/index.mpd]]>
+								<![CDATA[http://197.30.30.119/my-vod/Ads/default/Alfa_Romeo-Giulia_Mozzafiato-v2/index.mpd]]>
 							</MediaFile>
 							<MediaFile id="GDFP" delivery="progressive" width="426" height="236" type="video/mp4"
 								minBitrate="45" maxBitrate="3240" scalable="true" maintainAspectRatio="true">
@@ -362,12 +362,12 @@
 							<MediaFile id="GDFP" delivery="streaming" width="426" height="236"
 								type="application/x-mpegurl" minBitrate="45" maxBitrate="3240" scalable="true"
 								maintainAspectRatio="true">
-								<![CDATA[http://197.30.30.119/bpk-vod/Ads/default/Sprite-v2/index.m3u8]]>
+								<![CDATA[http://197.30.30.119/my-vod/Ads/default/Sprite-v2/index.m3u8]]>
 							</MediaFile>
 							<MediaFile id="GDFP" delivery="streaming" width="426" height="236"
 								type="application/dash+xml" minBitrate="45" maxBitrate="3240" scalable="true"
 								maintainAspectRatio="true">
-								<![CDATA[http://197.30.30.119/bpk-vod/Ads/default/Sprite-v2/index.mpd]]>
+								<![CDATA[http://197.30.30.119/my-vod/Ads/default/Sprite-v2/index.mpd]]>
 							</MediaFile>
 							<MediaFile id="GDFP" delivery="progressive" width="426" height="236" type="video/mp4"
 								minBitrate="45" maxBitrate="3240" scalable="true" maintainAspectRatio="true">

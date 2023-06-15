@@ -54,7 +54,7 @@ except Exception as err:
     print(err)
 
 # STUB_HOST = "127.0.0.1"
-LISTEN_PORT = 81
+LISTEN_PORT = 80
 
 # TEMPLATES
 TEMPLATE_DIR = os.path.join(SCRIPT_PATH, "templates",)
